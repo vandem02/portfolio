@@ -1,3 +1,13 @@
 * {
     font-family: 'Diphylleia', serif;
 }
+
+a {
+    margin: 0 10px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+}
