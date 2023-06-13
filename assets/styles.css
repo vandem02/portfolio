@@ -25,7 +25,6 @@ a {
 
 .work-item {
     margin: 20px;
-    padding: 10px;
     border: 5px solid orange;
     height: 350px;
     width: 350px;
@@ -37,10 +36,32 @@ a {
 }
 
 .work-items h1 {
+    display: inline-block;
     margin: 0;
+    background-color: orange;
 }
 
 .hangman {
     background-image: url(../assets/hangman.png);
+    background-size: 100% 100%;
+}
+
+.calculator {
+    background-image: url(../assets/calculator.png);
+    background-size: 100% 100%;
+}
+
+.menu {
+    background-image: url(../assets/restaurantmenu.png);
+    background-size: 100% 100%;
+}
+
+.clock {
+    background-image: url(../assets/clock.png);
+    background-size: 100% 100%;
+}
+
+.tictactoe {
+    background-image: url(../assets/tictactoe.png);
     background-size: 100% 100%;
 }
