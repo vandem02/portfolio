@@ -2,6 +2,10 @@
     font-family: 'Diphylleia', serif;
 }
 
+body {
+    background-color: lightblue;
+}
+
 a {
     margin: 0 10px;
     color: white;
@@ -21,7 +25,22 @@ a {
 
 .work-item {
     margin: 20px;
+    padding: 10px;
     border: 5px solid orange;
     height: 350px;
     width: 350px;
+}
+
+.main {
+    width: 100%;
+    height: 400px;
+}
+
+.work-items h1 {
+    margin: 0;
+}
+
+.hangman {
+    background-image: url(../assets/hangman.png);
+    background-size: 100% 100%;
 }
