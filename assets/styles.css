@@ -6,7 +6,7 @@ body {
     background-color: lightblue;
 }
 
-a {
+.navbar a {
     margin: 0 10px;
     color: white;
 }
@@ -31,7 +31,7 @@ a {
 }
 
 .main {
-    width: 100%;
+    width: 100%; /* Makes the main project take up its own row */
     height: 400px;
 }
 
@@ -64,4 +64,8 @@ a {
 .tictactoe {
     background-image: url(../assets/tictactoe.png);
     background-size: 100% 100%;
+}
+
+ul {
+    list-style-type: square;
 }
